@@ -9,7 +9,7 @@ Age-related macular degeneration (AMD) is a medical condition which may result i
 Early diagnosis of the condition can lead to preventive treatment which can save the patient's eyesight. 
 In this project I implemented a deep learning method for the automatic classification and segmentation of the lesions using two imaging modalities, Infra-Red (IR) and spectral-domain optical coherence tomography (SD-OCT).
 
-The goal is to achieve high segmentation accuracy with limited training data as the ground truth.
+The goal was to achieve high segmentation accuracy with limited training data as the ground truth.
 
 Our experimental results on five patients for training and two patients for test set yield a successful segmentation of the lesions. We achieved an 87.4% dice coefficient, a classification recall of 85.65% for the healthy patches and a recall of 87.44% for the pathological patches. We achieved an F1-score of 0.760.
 These preliminary results indicate that our method may be a useful tool for assisting clinicians in the diagnosis of AMD. 
