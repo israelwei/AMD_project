@@ -14,7 +14,7 @@ The goal was to achieve high segmentation accuracy with limited training data as
 Our experimental results on five patients for training and two patients for test set yield a successful segmentation of the lesions. We achieved an 87.4% dice coefficient, a classification recall of 85.65% for the healthy patches and a recall of 87.44% for the pathological patches. We achieved an F1-score of 0.760.
 These preliminary results indicate that our method may be a useful tool for assisting clinicians in the diagnosis of AMD. 
 
-An example for the result I've achieved on the test set is displayed below.
+An example for the result I've achieved on the test set is displayed below. The blue contour is the ground truth segmentation, and the yellow contour is the segmentation retrieved from my CNN predictions.
 ![better_result](https://user-images.githubusercontent.com/23454156/45216849-a8254780-b2aa-11e8-8b3d-5afa94ae9958.jpg)
 
 # About This Repo
